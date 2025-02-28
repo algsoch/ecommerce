@@ -7,6 +7,6 @@ github_url = "https://raw.githubusercontent.com/TheiScale/YouTube-Video-Notes/ac
 df = pd.read_csv(github_url, encoding='ISO-8859-1')
 
 # Save the CSV locally
-df.to_csv("downloaded_data.csv", index=False)
+df.to_csv("download_data.csv", index=False)
 
 print("✅ CSV file downloaded and saved as 'downloaded_data.csv'")
